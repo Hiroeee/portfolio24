@@ -5,6 +5,7 @@
 body {
     font-family: "Inter", sans-serif;
     background-color: #F0EFEB;
+    color: #241F21;
 }
 
 .m-s-b {
@@ -282,7 +283,7 @@ footer {
 }
 
 .title-card {
-    padding: 40px 0;
+    padding: 40px 0 0 0;
     border-radius: 0 0 4px 4px;
     background-color: #ffffff;
 }
@@ -334,6 +335,12 @@ footer {
     gap: 200px;
 }
 
+blockquote {
+    margin: 0 auto;
+    padding: 0.6em;
+    border-left: 4px solid #F0EFEB;
+  }
+
 .case-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -341,12 +348,17 @@ footer {
     gap: 40px;
 }
 
+.ex-card-row {
+    display: grid;
+    gap: 12px;
+}
+
 .text-s.up.pad-xs-v {
     text-align: left;
 }
 
 .card-box {
-    border: 0.8px solid rgba(36, 31, 33, 0.50);
+    border: 0.6px solid rgba(36, 31, 33, 0.50);
     border-radius: 8px;
     height: 100%;
 }
@@ -354,8 +366,8 @@ footer {
 .text-field {
     display: flex;
     flex-flow: column;
-    gap: 6px;
-    padding: 24px;
+    gap: 20px;
+    padding: 20px 24px 24px 24px;
 }
 
 .card-img {
@@ -363,6 +375,14 @@ footer {
     height: 300px;
     align-items: center;
     background-color: gray;
+}
+
+.case-field {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    padding: 20px 24px 24px 24px;
+    align-items: center;
 }
 
 .data {
@@ -487,6 +507,7 @@ footer {
     width: 120px;
     height: 120px;
     border-radius: 85px;
+    margin-left: 40px;
 }
 
 .ref-card-row {
@@ -516,33 +537,6 @@ footer {
     height: 18px;
 }
 
-.bubble {
-    position: relative;
-    width: auto;
-    background: #F0EFEB;
-    border-radius: 40px;
-    padding: 24px;
-    text-align: center;
-}
-
-.bubble-bottom-left:before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 24px solid #F0EFEB;
-    border-right: 12px solid transparent;
-    border-top: 12px solid #F0EFEB;
-    border-bottom: 20px solid transparent;
-    left: 32px;
-    bottom: -24px;
-}
-
-.bubble-box {
-    height: 100%;
-    display: flex;
-}
-
 .usability-box {
     display: grid;
     flex-direction: column;
@@ -551,6 +545,45 @@ footer {
     align-items: center;
 }
 
+.tooltip {
+    color: #241F21;
+    max-width: auto;
+    text-align: left;
+  }
+  
+  .tooltip {
+    --s: 1.5em;
+    --p: 24px;
+    --r: 1em;
+    padding: 1em;
+    border: var(--s) solid #0000;
+    border-radius: calc(var(--r) + var(--s));
+    background: border-box radial-gradient(56.31% 50% at 50% 56.32%, rgba(228, 234, 255, 0.60) 0%, rgba(232, 234, 255, 0.57) 66%, rgba(255, 235, 254, 0.40) 100%);
+    --_m: 100% / var(--s) var(--s) no-repeat;
+    --_p: clamp(var(--r) + 3* var(--s) / 2, var(--p), 100% - var(--r) - 3* var(--s) / 2);
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, radial-gradient(100% 100% at 100% 100%, #0000 99%, #000 102%) calc(var(--_p) + var(--s) / 2) var(--_m), radial-gradient(100% 100% at 0 100%, #0000 99%, #000 102%) calc(var(--_p) - var(--s) / 2) var(--_m);
+}
+
+.bubble {
+    color: #241F21;
+    max-width: auto;
+    text-align: left;
+  }
+  
+  .bubble {
+    --s: 1.5em;
+    --p: 24px;
+    --r: 1em;
+    min-height: 250px;
+    padding: 1em;
+    border: var(--s) solid #0000;
+    border-radius: calc(var(--r) + var(--s));
+    background: border-box radial-gradient(56.31% 50% at 50% 56.32%, rgba(228, 234, 255, 0.60) 0%, rgba(232, 234, 255, 0.57) 66%, rgba(255, 235, 254, 0.40) 100%);
+    --_m: 100% / var(--s) var(--s) no-repeat;
+    --_p: clamp(var(--r) + 3* var(--s) / 2, var(--p), 100% - var(--r) - 3* var(--s) / 2);
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, radial-gradient(100% 100% at 100% 100%, #0000 99%, #000 102%) calc(var(--_p) + var(--s) / 2) var(--_m), radial-gradient(100% 100% at 0 100%, #0000 99%, #000 102%) calc(var(--_p) - var(--s) / 2) var(--_m);
+}
+    
 @media screen and (max-width: 900px) {
     .display {
         font-size: 80px;
