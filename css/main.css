@@ -276,10 +276,15 @@ footer {
     padding: 40px 24px;
 }
 
-.hero-img {
-    height: 668px;
-    border-radius: 4px 4px 0 0;
-    background-color: gray;
+.hero-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.company-img img {
+    width: 200px;
+    height: auto;
 }
 
 .title-card {
@@ -367,14 +372,12 @@ blockquote {
     display: flex;
     flex-flow: column;
     gap: 20px;
-    padding: 20px 24px 24px 24px;
+    padding: 24px 24px 24px 24px;
 }
 
 .card-img {
-    width: auto;
-    height: 300px;
-    align-items: center;
-    background-color: gray;
+    text-align: center;
+    padding: 24px;
 }
 
 .case-field {
@@ -502,8 +505,7 @@ blockquote {
     gap: 20px;
 }
 
-.persona-img {
-    background-color: gray;
+.persona-img img {
     width: 120px;
     height: 120px;
     border-radius: 85px;
