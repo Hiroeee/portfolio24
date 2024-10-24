@@ -327,7 +327,7 @@ footer {
 .content-list {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 20px;
 }
 
 .li-contents {
@@ -523,7 +523,7 @@ blockquote {
     text-align: center;
     background-color: #F0EFEB;
     color: #241F21;
-    margin-right: 6px;
+    margin-right: 8px;
     font-size: 20px;
 }
 
