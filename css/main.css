@@ -40,6 +40,10 @@ body {
     text-transform: uppercase;
 }
 
+.nd {
+    text-decoration-line: none;
+}
+
 .navbar {
     width: 100%;
     height: 50px;
