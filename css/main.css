@@ -298,7 +298,19 @@ footer {
     height: auto;
 }
 
+#company-img img {
+    width: 110px;
+    height: auto;
+}
+
 .company-img-l img {
+    height: auto;
+}
+
+#company-img-l img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 340px;
     height: auto;
 }
 
@@ -828,6 +840,13 @@ blockquote {
         flex-direction: column;
         gap: 20px;
     }
+
+    #company-img-l img {
+        width: 300px;
+        height: auto;
+        margin: 0;
+    }
+
 
 }
 
