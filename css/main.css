@@ -208,6 +208,14 @@ p {
     float: left;
 }
 
+.col.r-desc {
+    padding-left: 40px;
+}
+
+.col.l-desc {
+    padding-right: 40px;
+}
+
 .card {
     padding-bottom: 180px;
 }
@@ -220,7 +228,6 @@ p {
 
 .col {
     width: 50%;
-    min-height: 680px;
 }
 
 .col-2 {
@@ -477,7 +484,7 @@ blockquote {
 .column-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px 60px;
 }
 
 .case-container {
