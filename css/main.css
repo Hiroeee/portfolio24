@@ -8,6 +8,12 @@ body {
     color: #241F21;
 }
 
+a {
+    text-decoration: none;
+    color: #241F21;
+    cursor: pointer;
+}
+
 .m-s-b {
     margin-bottom: 20px;
 }
@@ -74,16 +80,26 @@ li {
     padding-right: 12px;
 }
 
-button {
+li:nth-child(3) {
+    padding: 0;
+}
+
+#button {
     border: 1.2px solid #241F21;
     padding: 4px 8px;
     border-radius: 80px;
     background-color: #ffffff;
     text-decoration: none;
     cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    font-weight: 400;
+    display: inline;
+    text-transform: uppercase;
 }
 
-button:hover {
+#button:hover {
     background-color: #241F21;
     color: #ffffff;
 }
@@ -455,25 +471,27 @@ blockquote {
     margin-top: 180px;
 }
 
-.button2 {
+#button2 {
     padding: 8px 16px 8px 12px;
     font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    font-weight: 400;
     background-color: #F0EFEB;
-    display: flex;
-    align-items: center;
-    gap: 8px;
     border: 1.2px solid #241F21;
     text-decoration: none;
     border-radius: 80px;
     cursor: pointer;
+    display: inline;
+    text-transform: uppercase;
 }
 
-.button2:hover {
+#button2:hover {
     background-color: #241F21;
     color: #ffffff;
 }
 
-.button2:hover svg path {
+#button2:hover svg path {
     stroke: #ffffff;
 }
 
