@@ -159,6 +159,13 @@ button:hover {
     font-weight: 400;
 }
 
+#text-m {
+    font-size: 46px;
+    line-height: 42px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
 p {
     font-size: 20px;
     line-height: 26px;
@@ -568,6 +575,7 @@ blockquote {
     --p: 24px;
     --r: 1em;
     padding: 1em;
+    min-height: 180px;
     border: var(--s) solid #0000;
     border-radius: calc(var(--r) + var(--s));
     background: border-box radial-gradient(56.31% 50% at 50% 56.32%, rgba(228, 234, 255, 0.60) 0%, rgba(232, 234, 255, 0.57) 66%, rgba(255, 235, 254, 0.40) 100%);
