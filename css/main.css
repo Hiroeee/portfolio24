@@ -290,7 +290,7 @@ footer {
 .hero-img img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .company-img img {
@@ -408,9 +408,25 @@ blockquote {
     padding: 24px 24px 24px 24px;
 }
 
-.card-img {
+.card-ex {
+    background: rgba(205, 163, 233, 0.08);
+    border-radius: 8px;
+    height: 100%;
+}
+
+
+.creator-img {
     text-align: center;
     padding: 24px;
+}
+
+.card-img {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.card-img img {
+    height: 500px;
 }
 
 .case-field {
@@ -615,6 +631,27 @@ blockquote {
     --_p: clamp(var(--r) + 3* var(--s) / 2, var(--p), 100% - var(--r) - 3* var(--s) / 2);
     -webkit-mask: linear-gradient(#000 0 0) padding-box, radial-gradient(100% 100% at 100% 100%, #0000 99%, #000 102%) calc(var(--_p) + var(--s) / 2) var(--_m), radial-gradient(100% 100% at 0 100%, #0000 99%, #000 102%) calc(var(--_p) - var(--s) / 2) var(--_m);
 }
+
+.bubble-l {
+    color: #241F21;
+    max-width: auto;
+    text-align: left;
+  }
+  
+  .bubble-l {
+    --s: 1.5em;
+    --p: 24px;
+    --r: 1em;
+    min-height: 250px;
+    padding: 1em;
+    border: var(--s) solid #0000;
+    border-radius: calc(var(--r) + var(--s));
+    background: border-box rgba(205, 163, 233, 0.08);
+    --_m: 100% / var(--s) var(--s) no-repeat;
+    --_p: clamp(var(--r) + 3* var(--s) / 2, var(--p), 100% - var(--r) - 3* var(--s) / 2);
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, radial-gradient(100% 100% at 100% 100%, #0000 99%, #000 102%) calc(var(--_p) + var(--s) / 2) var(--_m), radial-gradient(100% 100% at 0 100%, #0000 99%, #000 102%) calc(var(--_p) - var(--s) / 2) var(--_m);
+}
+
     
 @media screen and (max-width: 900px) {
     .display {
