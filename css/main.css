@@ -201,11 +201,6 @@ p {
     float: left;
 }
 
-.col
-.bottom-for-img img {
-    width: 100%;
-}
-
 .card {
     padding-bottom: 180px;
 }
@@ -292,8 +287,18 @@ footer {
 }
 
 .company-img img {
-    width: 200px;
+    width: 140px;
     height: auto;
+}
+
+.company-img-l img {
+    height: auto;
+}
+
+.prototyping {
+    width: 200px;
+    height: 400px;
+    background-color: gray;
 }
 
 .title-card {
