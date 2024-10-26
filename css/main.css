@@ -52,11 +52,11 @@ a {
 
 .navbar {
     width: 100%;
-    height: 50px;
+    height: 60px;
     position: sticky;
     top: 0;
     left: 0;
-    padding: 12px 24px;
+    padding: 16px 40px;
     background-color: #ffffff;
 }
 
@@ -131,7 +131,7 @@ li:nth-child(3) {
 }
 
 .comment {
-    padding-bottom: 24px;
+    padding-bottom: 20px;
 }
 
 .comment >div {
@@ -212,7 +212,7 @@ p {
 }
 
 .work-container {
-    padding: 180px 24px;
+    padding: 180px 40px;
     text-transform: uppercase;
     overflow: auto;
 }
@@ -239,7 +239,7 @@ p {
 }
 
 .about-container {
-    padding: 0px 24px 180px;
+    padding: 0px 40px 180px;
     text-transform: uppercase;
     display: flex;
 }
@@ -276,12 +276,12 @@ p {
 }
 
 footer {
-    padding: 180px 24px 40px 24px;
+    padding: 180px 40px 40px 40px;
     overflow: hidden;
 }
 
 .desc-text {
-    padding-top: 20px;
+    padding-top: 40px;
     text-transform: uppercase;
 }
 
@@ -309,7 +309,13 @@ footer {
 }
 
 .main-wrapper {
-    padding: 40px 24px;
+    padding: 40px;
+}
+
+.case-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0;
 }
 
 .hero-img img {
@@ -370,10 +376,17 @@ footer {
     text-transform: uppercase;
 }
 
+.hero-section {
+    background-color: #ffffff;
+    padding: 40px 60px 60px 60px;
+    margin-bottom: 20px;
+    border-radius: 0 0 4px 4px;
+}
+
 .section {
     background-color: #ffffff;
-    padding: 40px 40px;
-    margin-bottom: 24px;
+    padding: 60px;
+    margin-bottom: 20px;
     border-radius: 4px;
 }
 
@@ -703,6 +716,43 @@ blockquote {
         align-items: flex-start;
     }
 
+    .case-sec-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .main-wrapper {
+        padding: 24px;
+    }
+
+    .hero-section {
+        padding: 40px 24px 40px 24px;
+    }
+
+    .section {
+        padding: 24px;
+    }
+
+    footer {
+        padding: 180px 24px 40px 24px;
+        overflow: hidden;
+    }
+
+    .contact-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .social-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -717,6 +767,8 @@ blockquote {
 
     .case-box .col {
         width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
     }
 
     .pad-xs-v {
@@ -730,6 +782,7 @@ blockquote {
     .about-container {
         display: flex;
         flex-direction: column;
+        padding: 0px 24px 180px;
     }
 
     .col {
@@ -746,6 +799,19 @@ blockquote {
 
     #text-lm {
         font-size: 111px;
+    }
+
+    .navbar {
+        padding: 16px 24px;
+    }
+
+    .work-container {
+        padding: 180px 24px;
+    }
+
+    footer {
+        padding: 180px 24px 40px 24px;
+        overflow: hidden;
     }
 
     .desc-text {
@@ -793,7 +859,7 @@ blockquote {
     .case-cards {
         display: flex;
         justify-content: space-between;
-        gap: 40px;
+        gap: 60px;
         flex-direction: column;
     }
 
@@ -848,7 +914,17 @@ blockquote {
         margin: 0;
     }
 
+    .main-wrapper {
+        padding: 24px;
+    }
 
+    .hero-section {
+        padding: 40px 24px 40px 24px;
+    }
+
+    .section {
+        padding: 24px;
+    }
 }
 
 
