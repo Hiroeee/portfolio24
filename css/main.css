@@ -281,7 +281,7 @@ footer {
 }
 
 .desc-text {
-    padding-top: 48px;
+    padding-top: 20px;
     text-transform: uppercase;
 }
 
@@ -343,12 +343,6 @@ footer {
     width: 200px;
     height: 400px;
     background-color: gray;
-}
-
-.title-card {
-    padding: 40px 0 0 0;
-    border-radius: 0 0 4px 4px;
-    background-color: #ffffff;
 }
 
 .tag ul {
@@ -474,7 +468,7 @@ blockquote {
 }
 
 #button2 {
-    padding: 8px 16px 8px 12px;
+    padding: 6px 16px 6px 12px;
     font-size: 35px;
     line-height: 35px;
     letter-spacing: -1px;
