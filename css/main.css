@@ -72,12 +72,14 @@ ul{
 }
 
 ul, li, button {
-    display: inline;
+    display: flex;
+    text-transform: uppercase;
     text-transform: uppercase;
 }
 
 li {
     padding-right: 12px;
+    align-items: center;
 }
 
 li:nth-child(3) {
