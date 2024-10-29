@@ -205,11 +205,6 @@ p {
     font-weight: 600;
 }
 
-.hero-video {
-    width: 100%;
-    height: 800px;
-}
-
 .work-container {
     padding: 180px 40px;
     text-transform: uppercase;
@@ -361,10 +356,6 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 80px;
-}
-
-video {
-    border-radius: 50px;
 }
 
 .video {
