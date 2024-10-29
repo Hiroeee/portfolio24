@@ -60,11 +60,22 @@ a {
     background-color: #ffffff;
 }
 
-.logo {
+.logo-container {
     display: inline-block;
     width: 26px;
     height: 26px;
-    background-color: #241F21;
+}
+
+.logo-container img {
+    width: 26px;
+}
+
+.circle-logo {
+    background: linear-gradient(149deg, #8AFF48 4.36%, #E1FF89 89.55%);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 ul{
