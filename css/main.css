@@ -676,6 +676,9 @@ blockquote {
 .play-button img {
     width: 100%;
     height: auto;
+    backdrop-filter: blur(16.309999465942383px);
+    filter: drop-shadow(0px 0px 97.297px rgba(0, 0, 0, 0.05));
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 900px) {
