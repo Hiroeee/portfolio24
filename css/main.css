@@ -2,9 +2,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "custom-font";
+    src: url(type/otf/PPNeueMontreal-Medium);
+}
+
+@font-face {
+    font-family: "display-font";
+    src: url();
+}
+
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "custom-font", sans-serif;
     background-color: #F0EFEB;
+    color: #241F21;
+}
+
+h1 {
+    font-family: "display-font", sans-serif;
     color: #241F21;
 }
 
